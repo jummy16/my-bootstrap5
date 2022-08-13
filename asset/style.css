@@ -1,0 +1,19 @@
+body::before{
+    display: block;
+    content: '';
+    height: 70px;
+}
+#map {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+@media (min-width: 768px) {
+    .newsletter{
+        width: 50%;
+    }
+}
